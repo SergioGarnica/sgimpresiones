@@ -1,43 +1,44 @@
 /*reset*/
+/*reset*/
 *{
-    font-family:'Nunito Sans', sans-serif;
-    font-size: 15px; 
-    margin: 0;
-    padding: 0;
+  font-family:'Nunito Sans', sans-serif;
+  font-size: 15px; 
+  margin: 0;
+  padding: 0;
 }
 
 /*Header*/
 header{
-    display:flex;
+  display:flex;
 }
 
 .logo{
-    display:flex;
+  display:flex;
 }
 
 .logo-img{
-    height: 50px;
+  height: 50px;
 }
 
 /* menu de navegacion */
 .menu-navegacion{
-    background-color: #d0e0eb;
-    display:flex;
-    height: 5em;
-    justify-content:center ;
-    align-items:center;
+  background-color: #d0e0eb;
+  display:flex;
+  height: 5em;
+  justify-content:center ;
+  align-items:center;
 
-    /*barra estatica*/
-    /* position: fixed; */
-    top: 0;
-    width: 100%;
-    
+  /*barra estatica*/
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  
 }
 
 .menu{
-    display:flex;
-    width: 550px;
-    justify-content:space-evenly;
+  display:flex;
+  width: 550px;
+  justify-content:space-evenly;
 
 
 }
@@ -47,30 +48,57 @@ list-style: none;
 }
 
 .menu li a{
-    text-decoration:none;
-    color: black;
+  text-decoration:none;
+  color: black;
 
 }
 .menu li a:hover{
-    color: blue;
+  color: blue;
 }
 
 #carouselExampleIndicators {
-    max-width: 700px; /* Ajusta el ancho del carrusel según tus necesidades */
-    margin: 0 auto; /* Centra el carrusel horizontalmente */
-  }
+  max-width: 700px; /* Ajusta el ancho del carrusel según tus necesidades */
+  margin: 0 auto; /* Centra el carrusel horizontalmente */
+}
 
+/*Galeria*/
+.card-img-top{
 
+  height: 250px;
+margin-right: 300px;
+}
 
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+ margin: 0 auto;
+}
+
+.container {
+  margin-top: 20px; /* Agrega margen superior al contenedor de imágenes */
+}
+
+/*TEXTO DE PRESENTACION*/
+.texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+.texto p{
+  width: 70%;
+
+}
 /*color #D1CAA1*/
 
 /*.impresora{
-    width: 350px;
-    background-color: #D1CAA1;
+  width: 350px;
+  background-color: #D1CAA1;
 }*/
 .filamento-petg{
-    width: 350px;
-    height: 250px;
+  width: 350px;
+  height: 250px;
 }
 
 
@@ -80,68 +108,68 @@ width: 100%;
 }
 
 .box{
-    display: flex;
-    align-content: space-between;
+  display: flex;
+  align-content: space-between;
 }
 
 main {
-    margin-top: 5em;
+  margin-top: 5em;
 }
 
 .footer{
-    background-color: #d0e0eb;
-      padding: 70px -5px;
-  }
-  .footer-col{
-     width: 25%;
-     padding: 0 15px;
-  }
-  .footer-col h4{
-    font-size: 18px;
-    color: #000000;
-    text-transform: capitalize;
-    margin-bottom: 35px;
-    font-weight: 500;
-    position: relative;
-  }
-  .footer-col h4::before{
-    content: '';
-    position: absolute;
-    left:0;
-    bottom: -10px;
-    background-color: #e91e63;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-  }
-  .footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
-  }
-  .footer-col ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #000000;
-    text-decoration: none;
-    font-weight: 300;
- 
-    display: block;
-    /* transition: all 0.3s ease; */
-  }
-  .footer-col ul li a:hover{
-    color: #ffffff;
-    padding-left: 8px;
-  }
+  background-color: #d0e0eb;
+    padding: 70px -5px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 300;
 
-  
-  /*responsive*/
-  @media(max-width: 767px){
-    .footer-col{
-      width: 50%;
-      margin-bottom: 30px;
-  }
-  }
-  @media(max-width: 574px){
-    .footer-col{
-      width: 100%;
-  }
+  display: block;
+  /* transition: all 0.3s ease; */
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
 }

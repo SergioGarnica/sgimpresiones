@@ -1,164 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,700;1,6..12,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,700;1,6..12,900&display=swap"
+    rel="stylesheet">
 
-<!--bootstrap-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
- rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-  crossorigin="anonymous">
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
 
-<!--css-->
-<link rel="stylesheet" href="./css/style.css">
-    <title>diseños en 3d</title>
-    
+  <!--css-->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>diseños en 3d</title>
+
 </head>
+
 <body>
-    <header class="menu-navegacion">
-        <div class="logo">
-            <img src="./assets/logo/sg.png" alt="logo 3d" class="logo-img">
+  <header class="menu-navegacion">
+    <div class="logo">
+      <img src="./assets/logo/sg.png" alt="logo 3d" class="logo-img">
+    </div>
+    <nav>
+      <ul class="menu">
+
+        <li><a href="./index.html">Inicio</a> </li>
+        <li><a href=" ./pages/impresion-3d.html">Impresion-3d</a></li>
+        <li><a href="./pages/insumos.html">Insumos</a></li>
+        <li><a href="./pages/quienes_somos.html">Quienes somos</a></li>
+        <li><a href="./pages/contacto.html">Contacto</a></li>
+
+      </ul>
+    </nav>
+
+  </header>
+
+  <br>
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide ">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/tecnologia-equipamiento-laboratorio-azul-generado-ia.jpg" class="d-block w-100" alt="...">
         </div>
-        <nav>
-            <ul class="menu">
-                
-                <li><a href="./index.html">Inicio</a> </li>
-                <li><a href=" ./pages/impresion-3d.html">Impresion-3d</a></li>
-                <li><a href="./pages/insumos.html">Insumos</a></li>
-                <li><a href="./pages/quienes_somos.html">Quienes somos</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-           
-            </ul>
-        </nav>
-
-    </header>
-
-    <br>
-      <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide ">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/tecnologia-equipamiento-laboratorio-azul-generado-ia.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/carrousel/filamento para impresora 3d.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/carrousel/maxresdefault.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        <div class="carousel-item">
+          <img src="./assets/carrousel/filamento para impresora 3d.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/carrousel/maxresdefault.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-  
-      <br>
-      <div class="text-center">
-        <h1>Diseños en 3d</h1>
-      </div>
-        
-        <section>
-            <article class="text-center">
-               <!-- <img class="impresora-img" src="./assets/tecnologia-equipamiento-laboratorio-azul-generado-ia.jpg" alt="">-->
-                <p><b>¡Bienvenidos al mundo de la impresión 3D y la creatividad ilimitada! En nuestra plataforma, te ofrecemos una amplia 
-                  gama de diseños impresos en 3D que seguramente cautivarán tus sentidos y despertarán tu imaginación. Nuestro compromiso es llevar tus ideas y proyectos
-                     al siguiente nivel, convirtiendo tus conceptos en objetos tangibles y únicos.</b></p>
-            </article>
-       
-            <section class="banner">
-            </section>
-            
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-md-3">
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/index/homero.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Vas a poder crear objetos como mates, que tienen un polimero para soportar la temperatura</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/index/filamento.png" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">filamentos de todo tipo, para tus creaciones</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/index/llavero.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Llaveros de tus personajes preferidos y de todo lo que imagines</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-        </section>
-        <br>
-        <footer class="footer">
-          <div class="container"><br>
-           <div class="row justify-content-center">
-            
-             <div class="footer-col">
-               <h4>OFICINAS</h4>
-               <ul>
-                 
-                 <li><a href="#">BRASIL</a></li>
-                 <li><a href="#">R. Monteiro de Melo 667
-                  São Paulo - SP 05050-000</a></li>
-                 <li><a href="#">Telefone: (+5511) 3864 2473
-                  Whatsapp: (+5511) 98854 7988
-                  contato@trideo3D.com</a></li>
-               </ul>
-             </div>
-             <div class="footer-col">
-              
-               <ul>
-                 <li><a href="#">ARGENTINA</a></li>
-                 <li><a href="#">Caracas 1751, Villa General Mitre
-                  CABA - CP 1416</a></li>
-                 <li><a href="#">Teléfono: (+5411) 5263 0246
-                  Whatsapp: (+54911) 3580 3472</a></li>
-                 <li><a href="#">info@trideo3D.com
-                  factory@trideo3D.com</a></li>
-                 
-               </ul>
-             </div>
-             <div class="footer-col">
-               <h4>ULTIMAS NOVEDADES</h4>
-               <ul>
-                 <li><a href="#">Subscribite a nuestra Newsletter para recibir las últimas novedades</a></li>
-             
-               </ul>
-             </div>
-             
-           </div>
-          </div>
-       </footer>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
 
-<!--script de boostrapt-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <br>
+  <div class="text-center">
+    <h1>Diseños en 3d</h1>
+  </div>
+
+  <section>
+    <article class="text-center">
+      <!-- <img class="impresora-img" src="./assets/tecnologia-equipamiento-laboratorio-azul-generado-ia.jpg" alt="">-->
+      <p><b>¡Bienvenidos al mundo de la impresión 3D y la creatividad ilimitada! En nuestra plataforma, te ofrecemos una
+          amplia
+          gama de diseños impresos en 3D que seguramente cautivarán tus sentidos y despertarán tu imaginación. Nuestro
+          compromiso es llevar tus ideas y proyectos
+          al siguiente nivel, convirtiendo tus conceptos en objetos tangibles y únicos.</b></p>
+    </article>
+
+    <section class="banner">
+    </section>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./assets/index/homero.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Vas a poder crear objetos como mates, que tienen un polimero para soportar la
+                temperatura</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./assets/index/filamento.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">filamentos de todo tipo, para tus creaciones</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./assets/index/llavero.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Llaveros de tus personajes preferidos y de todo lo que imagines</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <br>
+  <footer class="footer">
+    <div class="container"><br>
+      <div class="row justify-content-center">
+
+        <div class="footer-col">
+          <h4>OFICINAS</h4>
+          <ul>
+
+            <li><a href="#">BRASIL</a></li>
+            <li><a href="#">R. Monteiro de Melo 667
+                São Paulo - SP 05050-000</a></li>
+            <li><a href="#">Telefone: (+5511) 3864 2473
+                Whatsapp: (+5511) 98854 7988
+                contato@trideo3D.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+
+          <ul>
+            <li><a href="#">ARGENTINA</a></li>
+            <li><a href="#">Caracas 1751, Villa General Mitre
+                CABA - CP 1416</a></li>
+            <li><a href="#">Teléfono: (+5411) 5263 0246
+                Whatsapp: (+54911) 3580 3472</a></li>
+            <li><a href="#">info@trideo3D.com
+                factory@trideo3D.com</a></li>
+
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>ULTIMAS NOVEDADES</h4>
+          <ul>
+            <li><a href="#">Subscribite a nuestra Newsletter para recibir las últimas novedades</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!--script de boostrapt-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,700;1,6..12,900&display=swap" rel="stylesheet">
-<!--css-->
-<link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,700;1,6..12,900&display=swap"
+        rel="stylesheet">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--css-->
+    <link rel="stylesheet" href="../css/style.css">
     <title>diseños en 3d</title>
 </head>
+
 <body>
     <header class="menu-navegacion">
 
@@ -20,7 +29,7 @@
 
         <nav>
             <ul class="menu">
-                
+
                 <li><a href="../index.html">Inicio</a> </li>
                 <li><a href="./impresion-3d.html">impresion-3d</a></li>
                 <li><a href="./insumos.html">insumos</a></li>
@@ -31,18 +40,92 @@
 
     </header>
     <main>
-        <h1>contacto</h1>
-        <section>
-            <article class="impresora">
-                <img class="impresora-img" src="../assets/contacto/formulario-resultadofinal.jpg" alt="">
-              
-            </article>
-        </section>
+        
+        <div class="text-center">
+            <h1>Contacto</h1>
+          </div>
+       
+
         <section>
             <section class="banner">
-        </section>
+            </section>
     </main>
+    <br>
+    <div class="d-flex justify-content-center">
+        <div class="w-25 border m-4 p-4  ">
+            <form>
+                <div class="mb-3 ">
+                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text" class="w-100">.</div>
+                </div>
+                <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Apellido</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Email</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Celular</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Confirmar</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div> 
+    </div>
+    
+    <footer class="footer">
+        <div class="container"><br>
+            <div class="row justify-content-center">
 
-   
+                <div class="footer-col">
+                    <h4>OFICINAS</h4>
+                    <ul>
+
+                        <li><a href="#">BRASIL</a></li>
+                        <li><a href="#">R. Monteiro de Melo 667
+                                São Paulo - SP 05050-000</a></li>
+                        <li><a href="#">Telefone: (+5511) 3864 2473
+                                Whatsapp: (+5511) 98854 7988
+                                contato@trideo3D.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+
+                    <ul>
+                        <li><a href="#">ARGENTINA</a></li>
+                        <li><a href="#">Caracas 1751, Villa General Mitre
+                                CABA - CP 1416</a></li>
+                        <li><a href="#">Teléfono: (+5411) 5263 0246
+                                Whatsapp: (+54911) 3580 3472</a></li>
+                        <li><a href="#">info@trideo3D.com
+                                factory@trideo3D.com</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>ULTIMAS NOVEDADES</h4>
+                    <ul>
+                        <li><a href="#">Subscribite a nuestra Newsletter para recibir las últimas novedades</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!--script de boostrapt-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
