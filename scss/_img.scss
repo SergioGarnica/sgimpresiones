@@ -1,0 +1,14 @@
+.card-img-top{
+    height: 250px;
+    margin-right: 300px;
+
+    &__fluid {
+        max-width: 50%;
+        height: auto;
+       margin: 0 auto;
+      }
+}
+
+.container{
+    margin-top: 20px;
+}

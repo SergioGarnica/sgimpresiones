@@ -1,0 +1,23 @@
+@mixin ancho-alto{
+    width:100% ;
+    height: 5em;
+}
+
+@mixin titulo($j-c, $a-i){
+    background-color: $color-primary;
+  display:flex;
+  height: 5em;
+  justify-content: $j-c;
+  align-items: $a-i;
+  width: 100%;
+  font-size: 15px;
+  font-family: $fuente-principal;
+}
+
+@mixin tipografia($f-d,$j-c,$a-i,$f-w){
+    display: flex;
+    flex-direction: $f-d;
+    justify-content: $j-c;
+    align-items:$a-i ;
+    font-weight: $f-w;
+}
