@@ -1,0 +1,46 @@
+.footer{
+    background-color:$color-primary ;
+    padding: 70px -5px;
+
+    &-col{
+        width: 25%;
+        padding: 0 15px;
+
+        h4{
+            font-size: 18px;
+            color: $color-secondary;
+            text-transform: capitalize;
+            margin-bottom: 35px;
+            font-weight: 500;
+            position: relative;
+
+            ::before{
+                content: '';
+                position: absolute;
+                left:0;
+                bottom: -10px;
+                background-color: $pink;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+              }
+              li:not(:last-child){
+                margin-bottom: 10px;
+              }
+              a{
+                font-size: 16px;
+                text-transform: capitalize;
+                color:$color-secondary ;
+                text-decoration: none;
+                font-weight: 300;
+              
+                display: block;
+        }
+        :hover{
+            color: #ffffff;
+            padding-left: 8px;
+          }
+    }
+      
+}
+}

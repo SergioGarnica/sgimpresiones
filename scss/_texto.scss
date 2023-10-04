@@ -1,0 +1,10 @@
+.texto{
+    @include tipografia (column,center,center,bolder);
+  
+
+    & p{
+        width: 70%;
+      
+      }
+  }
+ 

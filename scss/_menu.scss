@@ -1,0 +1,33 @@
+
+
+
+.menu{
+    display:flex;
+    width: 550px;
+    justify-content:space-evenly;
+  
+  &__navegacion{
+ @include titulo(center, center);
+  @include ancho-alto;
+
+  top: 0;
+  @include ancho-alto;
+ 
+  }
+  & li{
+    list-style: none;
+    }
+    & a{
+        text-decoration:none;
+        color: $color-secondary;
+      
+      }
+      & hover{
+        color: $blue;
+      }
+  }
+
+  #carouselExampleIndicators {
+    max-width: 700px; 
+    margin: 0 auto; 
+  } 
