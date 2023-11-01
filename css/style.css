@@ -19,18 +19,24 @@
 }
 
 /* menu de navegacion */
-.menu-navegacion{
+/*
+  .menu-navegacion{
   background-color: #d0e0eb;
   display:flex;
-  height: 5em;
+  height: 6em;
   justify-content:center ;
   align-items:center;
 
+ 
   /*barra estatica*/
   /* position: fixed; */
-  top: 0;
-  width: 100%;
+  /*top: 0;*/
+  /*width: 100%;*/
   
+
+
+.bg-3d{
+background-color:#d0e0eb ;
 }
 
 .menu{
